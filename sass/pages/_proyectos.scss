@@ -1,0 +1,48 @@
+
+.imagen-proyecto {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin: 0 auto 30px auto;
+    border-radius: 16px;
+    @include box-shadow(0px, 10px, 30px, 0px, rgba(0, 0, 0, 0.1));
+    @include transition(transform, 0.3s);
+
+    &:hover {
+        transform: translateY(-5px);
+        @include box-shadow(0px, 15px, 40px, 0px, rgba(0, 0, 0, 0.15));
+    }
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+
+#soluciones .row.mb-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#copilot {
+    margin-bottom: 100px;
+}
+
+.etiqueta-tecnologias {
+    font-weight: 700;
+    color: $color-fondo;
+}
+
+
+.row.flex-md-row .col-md-6:last-child {
+    @media (min-width: 992px) {
+        padding-left: 80px;
+    }
+}
+
+.row.flex-md-row-reverse .col-md-6:last-child {
+    @media (min-width: 992px) {
+        padding-right: 80px;
+    }
+}

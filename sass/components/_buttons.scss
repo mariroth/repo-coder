@@ -1,0 +1,18 @@
+a.boton-hablemos {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: $color-principal;
+    color: $color-texto;
+    text-decoration: none;
+    border-radius: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 1rem;
+    @include transition();
+    @include box-shadow(0px, 3px, 8px, 0px, rgba(0, 0, 0, 0.15));
+}
+
+a.boton-hablemos:hover {
+    background-color: $color-acento;
+    color: $color-fondo;
+}

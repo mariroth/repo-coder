@@ -1,0 +1,35 @@
+body {
+    font-family: $font-principal;
+    background-color: $color-fondo;
+    color: $color-texto;
+    font-size: $tamano-texto;
+    line-height: $line-height-base;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: $color-principal;
+}
+
+h1 {
+    font-size: $tamano-h1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: $tamano-h2;
+    margin-bottom: 0.8rem;
+}
+
+h3 {
+    font-size: $tamano-h3;
+    margin-bottom: 0.5rem;
+}
+
+p, ul, li {
+    margin-bottom: 1rem;
+    font-size: $tamano-texto;
+    font-weight: 100;
+    line-height: $line-height-base;
+}
